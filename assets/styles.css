@@ -17,7 +17,16 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -25,7 +34,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
      
 }
 
@@ -51,6 +60,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /*Apply styles to footer*/
 footer {
@@ -87,15 +97,18 @@ section {
     background-position: center;
     justify-content: center;
     flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 .hero-form {
     color: #024e76;
-    background-color: #fce138;
+    background-color: #e0d58d;
     padding: 20px;
     width: 40%;
     margin: 3.5%;
     border:  solid 3px #024e76;
-    
+    box-shadow: 0 0 10px rgba(252, 225, 56, 0.8);
+    border-radius: 15px;
 }
 .hero-cta {
     width: 35%;
@@ -109,6 +122,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .hero-form p {
     margin: 5px 0 15px 0;
@@ -125,7 +139,7 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
-
+    border-radius: 10px;
 }
 .hero-form label {
     margin: 0 5px;
@@ -136,6 +150,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    border-radius: 15px;
 }
 /*Hero style end*/
 
@@ -296,6 +311,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 15px;
 }
 .contact-form button {
     width: 100%;
@@ -305,6 +321,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 15px;
 }
 /* secondary page hero */
 .hero-secondary {
