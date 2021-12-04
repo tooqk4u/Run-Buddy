@@ -102,12 +102,12 @@ section {
 }
 .hero-form {
     color: #024e76;
-    background-color: #e0d58d;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     width: 40%;
     margin: 3.5%;
     border:  solid 3px #024e76;
-    box-shadow: 0 0 10px rgba(252, 225, 56, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
 }
 .hero-cta {
@@ -150,7 +150,7 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 /*Hero style end*/
 
@@ -311,7 +311,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .contact-form button {
     width: 100%;
@@ -321,7 +321,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 /* secondary page hero */
 .hero-secondary {
